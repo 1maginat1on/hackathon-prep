@@ -1,0 +1,9 @@
+n = int(input())
+m = int(input())
+k = int(input())
+t = int(input())
+answer = (m + k - 1) // k
+if answer * k - m <= t:
+   print(n - (answer * k - m))
+else:
+   print(n)
